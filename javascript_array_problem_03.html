@@ -4,9 +4,19 @@
     <script type="text/javascript">
         function minimum_cost(houses) {
           var result = 0;
-          // TODO : 여기에 여러분이 직접 코딩을 해주세요.
+          for(var i=0;i<houses.length;i++){
+            min = 9999;
+            for(var j=0;j<houses[i].length;j++){
+              if(min>houses[i][j]){
+                min=houses[i][j];
+              }
+
+            }
+          }
+
           return result;
         }
+        document.write("으아아아아 실패입니다.");
         var test_case_01 = [[26, 40, 83], [49, 60, 57], [13, 89, 99]];
         var test_case_02 = [[1, 20, 30], [50, 5, 6], [9, 3, 7]];
         var test_case_03 = [[100, 1, 100], [999, 1, 999]];
